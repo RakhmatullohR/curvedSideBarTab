@@ -10,7 +10,19 @@
 
 body {
     min-height: 100vh;
-    background-color: #fff;
+    background-color: crimson;
+
+}
+.main{
+    height: 100vh;
+    margin: 0 90px;
+    padding: 300px;
+    background: #fff;
+}
+.main > h1 {
+   color: #198;
+   font-size: 60px;
+   text-shadow: 1px 0px crimson, -1px 0 crimson, 0px 1px crimson, 0px -1px crimson ;
 }
 
 .navigation {
